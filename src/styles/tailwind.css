@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.oculto{
+  visibility: hidden;
+  margin-bottom: 20px
+}
+.bloque{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.show{
+  visibility: visible
+}
+.timeline {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #425c7f;
+    width: 96vw;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+  }
+  .icon_footer{
+    transform: scale(2.0);
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .daily{
+    width: auto;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+    background-color: thistle;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
